@@ -16,13 +16,13 @@
 
   ​**首先**：它的体积要比图片小
 
-![img](https://raw.githubusercontent.com/CrazyRabbitCCC/share_android/master\image\iconfont_7.png)
+![img](https://raw.githubusercontent.com/CrazyRabbitCCC/share_android/master/image/iconfont_7.png)
 
 一共34个图标，却只有16k ,平均一个图标不到0.5k
 
 ​	**其次**：具有更好的可维护性（因为是矢量图，所以拉伸不变形;颜色可以自行更换）
 
-![img](https://raw.githubusercontent.com/CrazyRabbitCCC/share_android/master\image\iconfont_2.png)
+![img](https://raw.githubusercontent.com/CrazyRabbitCCC/share_android/master/image/iconfont_2.png)
 
 最后，不同平台的图片可以统一
 
@@ -34,25 +34,25 @@
 
 2.选择好自己想要的图标后 **下载代码** 
 
- ![img](https://raw.githubusercontent.com/CrazyRabbitCCC/share_android/master\image\iconfont_3.png)
+ ![img](https://raw.githubusercontent.com/CrazyRabbitCCC/share_android/master/image/iconfont_3.png)
 
  
 
 - ### 在android中使用
 
-  第一步：复制字体文件![img](https://raw.githubusercontent.com/CrazyRabbitCCC/share_android/master\image\iconfont_4.png)到项目 assets 目录；
+  第一步：复制字体文件![img](https://raw.githubusercontent.com/CrazyRabbitCCC/share_android/master/image/iconfont_4.png)到项目 assets 目录；
 
-  第二步： 打开下载文件中的![img](https://raw.githubusercontent.com/CrazyRabbitCCC/share_android/master\image\iconfont_5.png)找到要使用的图片对应的编码
+  第二步： 打开下载文件中的![img](https://raw.githubusercontent.com/CrazyRabbitCCC/share_android/master/image/iconfont_5.png)找到要使用的图片对应的编码
 
-![img](https://raw.githubusercontent.com/CrazyRabbitCCC/share_android/master\image\iconfont_1.png)
+![img](https://raw.githubusercontent.com/CrazyRabbitCCC/share_android/master/image/iconfont_1.png)
 
 第三步：将`textView` 的字体设置为` iconfont.ttf`
 
-第四步：对`textView` 赋值 如 上图中的 `smile` 图片对应的编码就是` \ue6af`
+第四步：对`textView` 赋值 如 上图中的 `smile` 图片对应的编码就是` /ue6af`
 
 最后实现的效果如下图，
 
-![img](https://raw.githubusercontent.com/CrazyRabbitCCC/share_android/master\image\iconfont_6.png)
+![img](https://raw.githubusercontent.com/CrazyRabbitCCC/share_android/master/image/iconfont_6.png)
 
 
 
